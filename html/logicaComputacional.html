@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Lógica Computacional</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Lógica Computacional</title>
 </head>
 <body>
-    <header>
-        <div class="header-esquerda">
-            <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
-            <a href="javascript:history.back()">Voltar</a>
-        </div>
 
-        <nav>
-            <select onchange="window.location.href=this.value">
-                <option value="">Selecione um tópico</option>
-                <option value="../html/logicaComputacional.html">Lógica Computacional</option>
-                <option value="../html/logicaProgramacao.html">Lógica de Programação</option>
-                <option value="../html/fundamentosEletronica.html">Fundamentos de Eletronica</option>
-                <option value="../html/fundamentosBancodeDados.html">Banco de Dados</option>
-                <option value="../html/fundamentosRede.html">Fundamentos de Rede</option>
-                <option value="../html/fundamentosTi.html">Fundamentos TI</option>
-            </select>
-        </nav>
-    </header>
-    <main>
-        <div class="conteiner-text">
-            <h1>Lógica Computacional</h1>
+  <header>
+    <div class="header-esquerda">
+      <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
+      <a href="javascript:history.back()">Voltar</a>
+    </div>
+    <nav>
+      <select onchange="window.location.href=this.value">
+        <option value="">Selecione um tópico</option>
+        <option value="../html/logicaComputacional.html" selected>Lógica Computacional</option>
+        <option value="../html/logicaProgramacao.html">Lógica de Programação</option>
+        <option value="../html/fundamentosEletronica.html">Fundamentos de Eletrônica</option>
+        <option value="../html/fundamentosBancodeDados.html">Banco de Dados</option>
+        <option value="../html/fundamentosRede.html">Fundamentos de Rede</option>
+        <option value="../html/fundamentosTi.html">Fundamentos TI</option>
+      </select>
+    </nav>
+  </header>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatum magni? Facere neque at magnam doloribus nesciunt placeat recusandae, deleniti eum quia tempore earum culpa alias ut saepe exercitationem? Excepturi.</p>
-        </div>
-    </main>
-    <footer>
-        <sup>&copy; Por Guilherme Rech, 2025</sup>
-    </footer>
+  <main>
+
+    <div class="container-text">
+      <h1>Lógica Computacional</h1>
+      <p>
+        A Lógica Computacional é a base do pensamento estruturado para a resolução de problemas em computação e programação. Ela ensina como organizar ideias, criar algoritmos e definir regras que permitem que um computador execute tarefas de forma correta e eficiente.
+      </p>
+      <p>
+        Estudar lógica computacional envolve aprender sobre raciocínio lógico, estruturas condicionais, operadores, sequências e tomada de decisão. Esse conhecimento é fundamental para desenvolver programas, projetar sistemas e compreender como softwares processam informações, preparando o estudante para áreas como programação, inteligência artificial, banco de dados e desenvolvimento de sistemas.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que são fluxogramas? Qual a sua simbologia básica?</h2>
+      <p>
+        Os fluxogramas são representações gráficas de algoritmos ou processos, mostrando passo a passo como uma tarefa deve ser executada. Símbolos básicos incluem o retângulo para ações ou instruções, o losango para decisões, o oval para início e fim, e setas que indicam o fluxo. Eles ajudam a visualizar e comunicar processos de forma clara e organizada.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que são algoritmos? Onde são usados?</h2>
+      <p>
+        Um algoritmo é uma sequência de passos ou instruções bem definidas para resolver um problema ou realizar uma tarefa. São usados em programação, automação, softwares, cálculos matemáticos e até na vida cotidiana. Todo programa de computador se baseia em algoritmos, pois eles definem a lógica que o sistema deve seguir.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que é o Portugol? O que é o Portugol Studio?</h2>
+      <p>
+        O Portugol é uma linguagem didática que permite escrever algoritmos usando sintaxe próxima da linguagem portuguesa, facilitando o aprendizado de programação. O Portugol Studio é uma ferramenta que permite escrever, testar e executar algoritmos em Portugol de forma interativa, com ambiente visual simples e suporte a depuração. *(Inserir imagem ilustrativa do Portugol Studio)*
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que são variáveis e constantes?</h2>
+      <p>
+        Variáveis são espaços de memória que armazenam informações que podem mudar durante a execução de um programa. Constantes armazenam valores fixos que não se alteram. Por exemplo, em um cálculo de área de círculo, o raio pode ser uma variável, enquanto π é uma constante. Ambos são essenciais para guardar dados temporários ou fixos nos algoritmos.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>Quais os tipos de dados mais usados em algoritmos (Portugol)?</h2>
+      <p>
+        Os tipos de dados mais comuns em Portugol incluem: <br>
+        <strong>Booleanos:</strong> verdadeiro ou falso.<br>
+        <strong>Caracter:</strong> um único caractere, como 'A'.<br>
+        <strong>Cadeia (String):</strong> textos, palavras ou frases.<br>
+        <strong>Inteiro:</strong> números sem casas decimais.<br>
+        <strong>Real:</strong> números com casas decimais.<br>
+        <strong>Vetor:</strong> sequência de valores do mesmo tipo, permitindo organizar dados relacionados.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; Guilherme Rech, 2025
+  </footer>
+
 </body>
 </html>
