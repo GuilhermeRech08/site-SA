@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Fundamentos de Rede</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Fundamentos de Rede</title>
 </head>
 <body>
-    <header>
-        <div class="header-esquerda">
-            <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
-            <a href="javascript:history.back()">Voltar</a>
-        </div>
 
-        <nav>
-            <select onchange="window.location.href=this.value">
-                <option value="">Selecione um tópico</option>
-                <option value="../html/logicaComputacional.html">Lógica Computacional</option>
-                <option value="../html/logicaProgramacao.html">Lógica de Programação</option>
-                <option value="../html/fundamentosEletronica.html">Fundamentos de Eletronica</option>
-                <option value="../html/fundamentosBancodeDados.html">Banco de Dados</option>
-                <option value="../html/fundamentosRede.html">Fundamentos de Rede</option>
-                <option value="../html/fundamentosTi.html">Fundamentos TI</option>
-            </select>
-        </nav>
-    </header>
-    <main>
-        <div class="conteiner-text">
-            <h1>Fundamentos de Rede</h1>
+  <header>
+    <div class="header-esquerda">
+      <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
+      <a href="javascript:history.back()">Voltar</a>
+    </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatum magni? Facere neque at magnam doloribus nesciunt placeat recusandae, deleniti eum quia tempore earum culpa alias ut saepe exercitationem? Excepturi.</p>
-        </div>
-    </main>
-    <footer>
-        <sup>&copy; Por Guilherme Rech, 2025</sup>
-    </footer>
+    <nav>
+      <select onchange="window.location.href=this.value">
+        <option value="">Selecione um tópico</option>
+        <option value="../html/logicaComputacional.html">Lógica Computacional</option>
+        <option value="../html/logicaProgramacao.html">Lógica de Programação</option>
+        <option value="../html/fundamentosEletronica.html">Fundamentos de Eletrônica</option>
+        <option value="../html/fundamentosBancodeDados.html">Banco de Dados</option>
+        <option value="../html/fundamentosRede.html" selected>Fundamentos de Rede</option>
+        <option value="../html/fundamentosTi.html">Fundamentos de TI</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container-text">
+      <h1>Fundamentos de Rede</h1>
+      <p>
+        Os Fundamentos de Redes abordam os princípios que permitem a comunicação entre computadores e dispositivos. Esse campo explica como as informações são enviadas, recebidas e organizadas dentro de uma rede, seja ela doméstica, corporativa ou global, como a Internet. Ao estudar redes, compreendemos os equipamentos envolvidos, os tipos de conexão, os protocolos de comunicação e a infraestrutura que possibilita o acesso a serviços, páginas web e transferência de dados. Esses conhecimentos são essenciais para configurar redes, garantir seu bom funcionamento e entender como a tecnologia se conecta e opera no nosso dia a dia.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>Oque são redes de computadores</h2>
+      <p>
+        Uma rede de computadores é um conjunto de dispositivos (como computadores, servidores, roteadores) interligados que podem trocar dados entre si. A ideia é compartilhar recursos (por ex., impressoras, arquivos, internet) e permitir comunicação.
+        É o fundamento para todas as outras coisas (internet, web, protocolos).
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>Oque é uma rede mínima?</h2>
+      <p>
+        Rede mínima pode ser entendida como o menor conjunto possível para que a comunicação funcione. Exemplo típico: dois computadores conectados diretamente ou através de um simples switch/roteador, compartilhando dados. Serve para entender o “mínimo” necessário para haver rede.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que é a internet? O que a compõe?</h2>
+      <p>
+        A Internet é uma rede global de redes de computadores que utilizam protocolos padronizados para conectar bilhões de dispositivos no mundo inteiro.
+        O que a compõe:
+
+        Infraestrutura física (cabos de rede, cabos de fibra óptica, roteadores, data centers)
+
+        Protocolos de comunicação (por exemplo, IP, TCP)
+
+        Serviços (web, e‐mail, streaming)
+
+        Operadores e provedores de acesso que interligam redes menores em redes maiores
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que é web?</h2>
+      <p>
+        A World Wide Web (“web”) é um dos serviços que rodam sobre a internet, representando o conjunto de páginas, aplicações web, navegadores que permitem acesso a conteúdos por meio de links (URLs) e protocolos como HTTP/HTTPS. Ou seja: internet = infraestrutura; web = “parte” de serviços que usam essa infraestrutura.
+      </p>
+    </div>
+
+    <div class="content-box">
+      <h2>O que é o mapa de fibra óptica. Mostre o mapa global de fibra óptica da internet.</h2>
+      <p>
+        O “mapa de fibra óptica” refere-se aos grandes cabos de fibra óptica submarinos ou terrestres que formam parte da infraestrutura física da internet, transportando enormes volumes de dados entre continentes e regiões.
+        
+        Esses mapas mostram como estão ligadas regiões como América do Norte, Europa, Ásia, África, via cabos submarinos e terrestres. Por exemplo, há uma boa visualização em “global internet infrastructure fiber optic cable map”.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; Guilherme Rech, 2025
+  </footer>
+
 </body>
 </html>
