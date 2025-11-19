@@ -16,7 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Blended effect: Subtle Aero Glass glow with floating orbs */
 body::before {
     content: '';
     position: fixed;
@@ -256,7 +255,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Blended code image styles */
 .code-image {
     width: 100%;
     max-width: 100%;
