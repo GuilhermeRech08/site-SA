@@ -12,11 +12,12 @@
 
     <header>
         <div class="header-esquerda">
-            <img src="./img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
+            <img src="./img/homepage.png" alt="Página inicial" onclick="window.location.href='index.html'">
             <a href="javascript:history.back()">Voltar</a>
         </div>
+
         <nav>
-            <select onchange="window.location.href=this.value">
+            <select onchange="if(this.value) window.location.href=this.value">
                 <option value="">Selecione um tópico</option>
                 <option value="./html/logicaComputacional.html">Lógica Computacional</option>
                 <option value="./html/logicaProgramacao.html">Lógica de Programação</option>
@@ -74,6 +75,13 @@
                     title="Localização da Escola SESI Tijucas">
                 </iframe>
             </div>
+        </div>
+
+        <div class="container-text">
+            <h2>Contatos</h2>
+            <p>Para saber mais sobre futuros projetos, entre em contato pelo email a seguir:
+                <a href="mailto:guilherme_s_rech@estudante.sesisenai.org.br">Enviar email</a>
+            </p>
         </div>
     </main>
 

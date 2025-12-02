@@ -8,23 +8,26 @@
 </head>
 <body>
 
+  <body>
+
   <header>
     <div class="header-esquerda">
-      <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='./index.html'">
-      <a href="javascript:history.back()">Voltar</a>
+        <img src="../img/homepage.png" alt="Página inicial" onclick="window.location.href='../index.html'">
+        <a href="javascript:history.back()">Voltar</a>
     </div>
     <nav>
-      <select onchange="window.location.href=this.value">
-        <option value="">Selecione um tópico</option>
-        <option value="../html/logicaComputacional.html">Lógica Computacional</option>
-        <option value="../html/logicaProgramacao.html">Lógica de Programação</option>
-        <option value="../html/fundamentosEletronica.html">Fundamentos de Eletrônica</option>
-        <option value="../html/fundamentosBancodeDados.html">Banco de Dados</option>
-        <option value="../html/fundamentosRede.html">Fundamentos de Rede</option>
-        <option value="../html/fundamentosTi.html" selected>Fundamentos TI</option>
-      </select>
+        <select onchange="if(this.value) window.location.href=this.value">
+            <option value="">Selecione um tópico</option>
+            <option value="logicaComputacional.html">Lógica Computacional</option>
+            <option value="logicaProgramacao.html">Lógica de Programação</option>
+            <option value="fundamentosEletronica.html">Fundamentos de Eletrônica</option>
+            <option value="fundamentosBancodeDados.html">Banco de Dados</option>
+            <option value="fundamentosRede.html">Fundamentos de Rede</option>
+            <option value="fundamentosTi.html" selected>Fundamentos de TI</option>
+        </select>
     </nav>
-  </header>
+</header>
+
 
   <main>
 
