@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/calculadoras.css">
   <title>Lógica de Programação</title>
 </head>
+
 <body>
 
   <header>
@@ -31,53 +34,137 @@
     <div class="container-text">
       <h1>Lógica de Programação</h1>
       <p>
-        A Lógica de Programação é o estudo das técnicas e métodos para criar soluções computacionais de forma estruturada e eficiente. Ela ensina como transformar problemas do mundo real em sequências de instruções que um computador consegue executar corretamente.
+        A Lógica de Programação é o estudo das técnicas e métodos para criar soluções computacionais de forma
+        estruturada e eficiente. Ela ensina como transformar problemas do mundo real em sequências de instruções que um
+        computador consegue executar corretamente.
       </p>
       <p>
-        Estudar lógica de programação envolve aprender sobre algoritmos, estruturas de controle, repetição, tomada de decisão e organização de dados. Com esse conhecimento, é possível desenvolver programas, automatizar tarefas, criar sistemas e aplicações, além de preparar o estudante para aprender diferentes linguagens de programação e trabalhar em áreas como desenvolvimento de software, análise de dados e inteligência artificial.
+        Estudar lógica de programação envolve aprender sobre algoritmos, estruturas de controle, repetição, tomada de
+        decisão e organização de dados. Com esse conhecimento, é possível desenvolver programas, automatizar tarefas,
+        criar sistemas e aplicações, além de preparar o estudante para aprender diferentes linguagens de programação e
+        trabalhar em áreas como desenvolvimento de software, análise de dados e inteligência artificial.
       </p>
     </div>
 
     <div class="content-box">
       <h2>O que são Linguagens de Programação?</h2>
       <p>
-        As linguagens de programação são meios pelos quais os programadores comunicam instruções a um computador para que ele execute tarefas específicas. Cada linguagem possui sintaxe e recursos próprios, podendo ser usada em diferentes tipos de aplicações.
+        As linguagens de programação são meios pelos quais os programadores comunicam instruções a um computador para
+        que ele execute tarefas específicas. Cada linguagem possui sintaxe e recursos próprios, podendo ser usada em
+        diferentes tipos de aplicações.
       </p>
       <p>
-        <strong>C++:</strong> linguagem poderosa, usada em sistemas de alto desempenho, jogos e softwares de engenharia.<br>
-        <strong>JavaScript:</strong> utilizada principalmente em desenvolvimento web para tornar páginas interativas.<br>
-        <strong>Java:</strong> orientada a objetos, comum em sistemas corporativos, aplicativos Android e softwares multiplataforma.<br>
-        <strong>Python:</strong> linguagem de fácil leitura e aprendizado, amplamente usada em ciência de dados, inteligência artificial e automação.<br>
-        <strong>PHP:</strong> voltada para desenvolvimento web, especialmente para criação de sites dinâmicos e aplicações de servidor.
+        <strong>C++:</strong> linguagem poderosa, usada em sistemas de alto desempenho, jogos e softwares de
+        engenharia.<br>
+        <strong>JavaScript:</strong> utilizada principalmente em desenvolvimento web para tornar páginas
+        interativas.<br>
+        <strong>Java:</strong> orientada a objetos, comum em sistemas corporativos, aplicativos Android e softwares
+        multiplataforma.<br>
+        <strong>Python:</strong> linguagem de fácil leitura e aprendizado, amplamente usada em ciência de dados,
+        inteligência artificial e automação.<br>
+        <strong>PHP:</strong> voltada para desenvolvimento web, especialmente para criação de sites dinâmicos e
+        aplicações de servidor.
       </p>
     </div>
 
     <div class="content-box">
       <h2>O que é uma linguagem de programação interpretada? E uma compilada?</h2>
       <p>
-        Uma linguagem interpretada é executada linha por linha por um interpretador, sem gerar arquivo executável, como Python e JavaScript. Já uma linguagem compilada é transformada totalmente em código de máquina antes de ser executada, gerando um programa executável, como C++ e Java. A escolha entre elas depende do tipo de aplicação, desempenho e facilidade de desenvolvimento.
+        Uma linguagem interpretada é executada linha por linha por um interpretador, sem gerar arquivo executável, como
+        Python e JavaScript. Já uma linguagem compilada é transformada totalmente em código de máquina antes de ser
+        executada, gerando um programa executável, como C++ e Java. A escolha entre elas depende do tipo de aplicação,
+        desempenho e facilidade de desenvolvimento.
       </p>
     </div>
 
     <div class="content-box">
       <h2>O que é HTML e CSS</h2>
       <p>
-        HTML (HyperText Markup Language) é a linguagem usada para estruturar páginas web, definindo elementos como textos, títulos, listas e links. CSS (Cascading Style Sheets) é usado para estilizar essas páginas, controlando cores, fontes, espaçamentos, layout e responsividade. Juntas, HTML e CSS permitem criar sites visualmente organizados, interativos e esteticamente agradáveis.
+        HTML (HyperText Markup Language) é a linguagem usada para estruturar páginas web, definindo elementos como
+        textos, títulos, listas e links. CSS (Cascading Style Sheets) é usado para estilizar essas páginas, controlando
+        cores, fontes, espaçamentos, layout e responsividade. Juntas, HTML e CSS permitem criar sites visualmente
+        organizados, interativos e esteticamente agradáveis.
       </p>
     </div>
 
     <div class="content-box">
       <h2>O que é uma IDE (Ambiente de Desenvolvimento de Sistemas)?</h2>
       <p>
-        Uma IDE (Integrated Development Environment) é um ambiente que auxilia programadores a escrever, testar e depurar códigos de forma mais eficiente. Elas combinam editor de texto, compilador/interpreter, depurador e ferramentas de organização. Exemplos populares incluem VSCode, IntelliJ IDEA, Eclipse e PyCharm, que ajudam a acelerar o desenvolvimento de softwares e reduzir erros.
+        Uma IDE (Integrated Development Environment) é um ambiente que auxilia programadores a escrever, testar e
+        depurar códigos de forma mais eficiente. Elas combinam editor de texto, compilador/interpreter, depurador e
+        ferramentas de organização. Exemplos populares incluem VSCode, IntelliJ IDEA, Eclipse e PyCharm, que ajudam a
+        acelerar o desenvolvimento de softwares e reduzir erros.
       </p>
     </div>
 
-  </main>
+    <div class="content-box" id="box1">
+      <h2>Ordenar números de 1 a 20 (crescente e decrescente)</h2>
+      <button class="calc-button" id="btn1">Executar</button>
+      <div id="r1" class="resultado"></div>
+    </div>
 
+    <div class="content-box" id="box2">
+      <h2>10 números aleatórios (1 a 20) com BubbleSort</h2>
+      <button class="calc-button" id="btn2">Executar</button>
+      <div id="r2" class="resultado"></div>
+    </div>
+
+    <div class="content-box" id="box3">
+      <h2>Soma de 10 números aleatórios (1 a 220)</h2>
+      <button class="calc-button" id="btn3">Executar</button>
+      <div id="r3" class="resultado"></div>
+    </div>
+
+    <div class="content-box" id="box4">
+      <h2>Matriz 3x3 com números aleatórios (1 a 20)</h2>
+      <button class="calc-button" id="btn4">Executar</button>
+      <div id="r4" class="resultado"></div>
+    </div>
+
+    <div class="content-box" id="box5">
+      <h2>Cálculo de IMC</h2>
+      <label class="calc-label" for="peso">Peso (kg):</label>
+      <input class="calc-input" type="number" id="peso" value="70" step="0.1">
+      <label class="calc-label" for="altura">Altura (m):</label>
+      <input class="calc-input" type="number" id="altura" value="1.75" step="0.01">
+      <br>
+      <button class="calc-button" id="btn5">Calcular IMC</button>
+      <div id="r5" class="resultado"></div>
+    </div>
+
+    <div class="content-box" id="box6">
+      <h2>Conversão de Temperatura (°C ↔ °F)</h2>
+      <label class="calc-label" for="celsius">Celsius (°C):</label>
+      <input class="calc-input" type="number" id="celsius" value="30" step="0.1">
+      <label class="calc-label" for="fahrenheit">Fahrenheit (°F):</label>
+      <input class="calc-input" type="number" id="fahrenheit" value="86" step="0.1">
+      <br>
+      <button class="calc-button" id="btn6">Converter</button>
+      <div id="r6" class="resultado"></div>
+    </div>
+
+    <div class="content-box" id="box7">
+      <h2>Busca Linear</h2>
+      <p>
+        A busca linear percorre cada posição de um vetor do início ao fim até
+        encontrar o valor desejado. É simples, funciona em qualquer tipo de
+        vetor e não precisa estar ordenado.
+      </p>
+      <label class="calc-label" for="valorBusca">Valor a buscar:</label>
+      <input class="calc-input" type="number" id="valorBusca" value="8">
+      <br>
+      <button class="calc-button" id="btn7">Buscar</button>
+      <div id="r7" class="resultado"></div>
+    </div>
+
+  </main>
+  
   <footer>
     &copy; Guilherme Rech, 2025
   </footer>
 
+  <script src="../js/logica.js"></script>
+
 </body>
+
 </html>
